@@ -6,3 +6,4 @@ export * from "./LowerApproximation";
 export * from "./ModelGeneration";
 export * from "./SomeAction";
 export * from "./UpperApproximation";
+export * from "./AssumptionModelGeneration";
