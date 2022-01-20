@@ -7,3 +7,5 @@ export * from "./ModelGeneration";
 export * from "./SomeAction";
 export * from "./UpperApproximation";
 export * from "./AssumptionModelGeneration";
+export * from "./LowerApproximationAssumption";
+export * from "./UpperApproximationAssumption";
