@@ -9,3 +9,4 @@ export * from "./UpperApproximation";
 export * from "./AssumptionModelGeneration";
 export * from "./LowerApproximationAssumption";
 export * from "./UpperApproximationAssumption";
+export * from "./DominoAssumption";

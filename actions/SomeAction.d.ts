@@ -7,5 +7,6 @@ import { UpperApproximation } from "./UpperApproximation";
 import { AssumptionModelGeneration } from "./AssumptionModelGeneration";
 import { LowerApproximationAssumption } from "./LowerApproximationAssumption";
 import { UpperApproximationAssumption } from "./UpperApproximationAssumption";
+import { DominoAssumption } from "./DominoAssumption";
 
-export type SomeAction = BisimulationChecking | BisimulationModelsGeneration | DominoDfs | LowerApproximation | ModelGeneration | UpperApproximation | AssumptionModelGeneration | LowerApproximationAssumption | UpperApproximationAssumption;
+export type SomeAction = BisimulationChecking | BisimulationModelsGeneration | DominoDfs | LowerApproximation | ModelGeneration | UpperApproximation | AssumptionModelGeneration | LowerApproximationAssumption | UpperApproximationAssumption | DominoAssumption;
