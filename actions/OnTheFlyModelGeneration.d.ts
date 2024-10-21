@@ -3,5 +3,5 @@ import { Action } from "./Action";
 
 export interface OnTheFlyModelGeneration extends Action {
     type: "onTheFlyModelGeneration";
-    modelParameters: models.parameters.File;
+    modelParameters: models.parameters.SomeParameters;
 }
