@@ -11,3 +11,4 @@ export * from "./LowerApproximationAssumption";
 export * from "./UpperApproximationAssumption";
 export * from "./DominoAssumption";
 export * from "./OnTheFlyModelGeneration";
+export * from "./NaturalStrategy";
