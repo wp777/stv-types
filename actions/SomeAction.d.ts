@@ -9,5 +9,6 @@ import { LowerApproximationAssumption } from "./LowerApproximationAssumption";
 import { UpperApproximationAssumption } from "./UpperApproximationAssumption";
 import { DominoAssumption } from "./DominoAssumption";
 import { OnTheFlyModelGeneration } from "./OnTheFlyModelGeneration";
+import { NaturalStrategy } from "./NaturalStrategy";
 
-export type SomeAction = BisimulationChecking | BisimulationModelsGeneration | DominoDfs | LowerApproximation | ModelGeneration | UpperApproximation | AssumptionModelGeneration | LowerApproximationAssumption | UpperApproximationAssumption | DominoAssumption | OnTheFlyModelGeneration;
+export type SomeAction = BisimulationChecking | BisimulationModelsGeneration | DominoDfs | LowerApproximation | ModelGeneration | UpperApproximation | AssumptionModelGeneration | LowerApproximationAssumption | UpperApproximationAssumption | DominoAssumption | OnTheFlyModelGeneration | NaturalStrategy;
